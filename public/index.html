@@ -1,38 +1,23 @@
-<html>
+<html lang="en">
   <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <meta charset="utf8">
+    <title>Contact Me</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+      div {
+        margin: 1em auto;
+      }
+    </style>
   </head>
-  <body>&lt;!DOCTYPE html&gt;<br>
-    &lt;html lang="en"&gt;<br>
-    &nbsp; &lt;head&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;meta charset="utf8"&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;title&gt;Contact Me&lt;/title&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;meta name="viewport"
-    content="width=device-width,initial-scale=1"&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;style&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; div {<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; margin: 1em auto;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br>
-    &nbsp;&nbsp;&nbsp; &lt;/style&gt;<br>
-    &nbsp; &lt;/head&gt;<br>
-    &nbsp; &lt;body&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;h1&gt;Contact Me&lt;/h1&gt;<br>
-    &nbsp;&nbsp;&nbsp; &lt;form method="POST" action="/api/contact"&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div&gt; &lt;label
-    for="name"&gt;Name:&lt;/label&gt; &lt;input id="name" name="name"
-    type="text"&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div&gt; &lt;label
-    for="email"&gt;Email:&lt;/label&gt; &lt;input id="email" name="email"
-    type="email"&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;div&gt; &lt;label
-    for="message"&gt;Message:&lt;/label&gt; &lt;textarea id="message"
-    name="message"&gt;&lt;/textarea&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;/div&gt;<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;button
-    type="submit"&gt;Submit&lt;/button&gt; &lt;/form&gt;<br>
-    &nbsp; &lt;/body&gt;<br>
-    &lt;/html&gt;<br>
+  <body>
+    <h1>Contact Me</h1>
+    <form method="POST" action="/api/contact">
+      <div> <label for="name">Name:</label> <input id="name" name="name" type="text">
+      </div>
+      <div> <label for="email">Email:</label> <input id="email" name="email" type="email">
+      </div>
+      <div> <label for="message">Message:</label> <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit">Submit</button> </form>
   </body>
 </html>
