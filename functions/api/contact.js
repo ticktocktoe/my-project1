@@ -1,10 +1,4 @@
-<html>
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
-
-      title="Wrap Long Lines">
-    export async function onRequestPost(context) {
+export async function onRequestPost(context) {
   try {
     return await handleRequest(context);
   } catch (e) {
@@ -56,10 +50,3 @@ async function validateToken(ip, token) {
 async function forwardMessage(name, email, message) {
   // Forward the message to an email address, webhook etc.
 }
-
-  </head>
-  <body>
-    <pre></pre>
-    <br>
-  </body>
-</html>
