@@ -1,4 +1,12 @@
-export async function onRequestPost(context) {
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+
+      title="Wrap Long Lines">
+  </head>
+  <body>
+    <pre>export async function onRequestPost(context) {
   try {
     return await handleRequest(context);
   } catch (e) {
@@ -28,7 +36,7 @@ async function handleRequest({ request }) {
 }
 
 async function validateToken(ip, token) {
-  const TURNSTILE_SECRET_KEY = "1x0000000000000000000000000000000AA";
+  const TURNSTILE_SECRET_KEY = "0x4AAAAAAAL_xlX4qNF062nzT8xAqRNuDRo";
 
   const formData = new FormData();
   formData.append("secret", TURNSTILE_SECRET_KEY);
@@ -48,5 +56,8 @@ async function validateToken(ip, token) {
 }
 
 async function forwardMessage(name, email, message) {
-  // Forward the message to an email address, webhook etc.
+  // info@justngo.ie
 }
+</pre>
+  </body>
+</html>
