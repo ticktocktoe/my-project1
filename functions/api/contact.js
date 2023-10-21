@@ -1,7 +1,8 @@
 <html>
   <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1252">
-    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+    <link rel="alternate stylesheet" type="text/css" href="resource://gre-resources/plaintext.css"
+
       title="Wrap Long Lines">
   </head>
   <body>
@@ -35,7 +36,7 @@ async function handleRequest({ request }) {
 }
 
 async function validateToken(ip, token) {
-  const TURNSTILE_SECRET_KEY = "1x0000000000000000000000000000000AA";
+  const TURNSTILE_SECRET_KEY = "0x4AAAAAAAL_xlX4qNF062nzT8xAqRNuDRo";
 
   const formData = new FormData();
   formData.append("secret", TURNSTILE_SECRET_KEY);
